@@ -23,8 +23,11 @@ A proposta é um aplicativo onde o usuário poderá registrar qualquer problema 
 	d. Descrição
 
 Segue abaixo um exemplo:
+
 	- Nome: Buraco calçada
+
 	- Endereço: Av. Lins de Vasconcelos 3100, Aclimação, São Paulo – SP
+
 	- Descrição: Este buraco de aproximadamente 80 cm de diâmetro, encontrado na calçada direita (sentido centro) em frente ao Pet Shop da Lins, está atrapalhando a circulação de pedestres que por muitas vezes acabam tendo que invadir a pista correndo risco de atropelamento.
 
 7. A partir dessa tela, ele poderá voltar para a tela de Listagem ou ir para a tela de Edição/Criação;
