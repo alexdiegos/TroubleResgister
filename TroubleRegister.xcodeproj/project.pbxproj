@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AC3A6C06288CA8DB0046DE69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C05288CA8DB0046DE69 /* AppDelegate.swift */; };
 		AC3A6C08288CA8DB0046DE69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C07288CA8DB0046DE69 /* SceneDelegate.swift */; };
-		AC3A6C0A288CA8DB0046DE69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C09288CA8DB0046DE69 /* ViewController.swift */; };
 		AC3A6C0D288CA8DB0046DE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C0B288CA8DB0046DE69 /* Main.storyboard */; };
 		AC3A6C0F288CA8E00046DE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */; };
 		AC3A6C12288CA8E00046DE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C10288CA8E00046DE69 /* LaunchScreen.storyboard */; };
+		AC3A6C1E288E0CE90046DE69 /* CreateEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */; };
+		AC3A6C20288E0D910046DE69 /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */; };
+		AC3A6C22288E0ED70046DE69 /* TroublesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */; };
+		AC3A6C29288F04C10046DE69 /* TroubleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */; };
+		AC3A6C2C288F83F90046DE69 /* TroublesLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C2A288F83F90046DE69 /* TroublesLib.xcdatamodeld */; };
+		AC3A6C2E288F92C70046DE69 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C2D288F92C70046DE69 /* UIViewController+Context.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC3A6C02288CA8DB0046DE69 /* TroubleRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroubleRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A6C05288CA8DB0046DE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3A6C07288CA8DB0046DE69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC3A6C09288CA8DB0046DE69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC3A6C0C288CA8DB0046DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3A6C11288CA8E00046DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3A6C13288CA8E00046DE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateEditViewController.swift; path = ../CreateEditViewController.swift; sourceTree = "<group>"; };
+		AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
+		AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroublesTableViewController.swift; sourceTree = "<group>"; };
+		AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleTableViewCell.swift; sourceTree = "<group>"; };
+		AC3A6C2B288F83F90046DE69 /* TroublesLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroublesLib.xcdatamodel; sourceTree = "<group>"; };
+		AC3A6C2D288F92C70046DE69 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				AC3A6C05288CA8DB0046DE69 /* AppDelegate.swift */,
 				AC3A6C07288CA8DB0046DE69 /* SceneDelegate.swift */,
-				AC3A6C09288CA8DB0046DE69 /* ViewController.swift */,
+				AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */,
+				AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */,
+				AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */,
+				AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */,
+				AC3A6C2A288F83F90046DE69 /* TroublesLib.xcdatamodeld */,
 				AC3A6C0B288CA8DB0046DE69 /* Main.storyboard */,
-				AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */,
 				AC3A6C10288CA8E00046DE69 /* LaunchScreen.storyboard */,
+				AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */,
 				AC3A6C13288CA8E00046DE69 /* Info.plist */,
+				AC3A6C2D288F92C70046DE69 /* UIViewController+Context.swift */,
 			);
 			path = TroubleRegister;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3A6C0A288CA8DB0046DE69 /* ViewController.swift in Sources */,
+				AC3A6C29288F04C10046DE69 /* TroubleTableViewCell.swift in Sources */,
 				AC3A6C06288CA8DB0046DE69 /* AppDelegate.swift in Sources */,
 				AC3A6C08288CA8DB0046DE69 /* SceneDelegate.swift in Sources */,
+				AC3A6C1E288E0CE90046DE69 /* CreateEditViewController.swift in Sources */,
+				AC3A6C20288E0D910046DE69 /* TroubleViewController.swift in Sources */,
+				AC3A6C22288E0ED70046DE69 /* TroublesTableViewController.swift in Sources */,
+				AC3A6C2E288F92C70046DE69 /* UIViewController+Context.swift in Sources */,
+				AC3A6C2C288F83F90046DE69 /* TroublesLib.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC3A6C2A288F83F90046DE69 /* TroublesLib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC3A6C2B288F83F90046DE69 /* TroublesLib.xcdatamodel */,
+			);
+			currentVersion = AC3A6C2B288F83F90046DE69 /* TroublesLib.xcdatamodel */;
+			path = TroublesLib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC3A6BFA288CA8DB0046DE69 /* Project object */;
 }
