@@ -12,12 +12,12 @@
 		AC3A6C0D288CA8DB0046DE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C0B288CA8DB0046DE69 /* Main.storyboard */; };
 		AC3A6C0F288CA8E00046DE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */; };
 		AC3A6C12288CA8E00046DE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A6C10288CA8E00046DE69 /* LaunchScreen.storyboard */; };
-		AC3A6C1E288E0CE90046DE69 /* CreateEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */; };
 		AC3A6C20288E0D910046DE69 /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */; };
 		AC3A6C22288E0ED70046DE69 /* TroublesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */; };
 		AC3A6C29288F04C10046DE69 /* TroubleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */; };
 		AC3A6C2C288F83F90046DE69 /* TroublesLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C2A288F83F90046DE69 /* TroublesLib.xcdatamodeld */; };
 		AC3A6C2E288F92C70046DE69 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C2D288F92C70046DE69 /* UIViewController+Context.swift */; };
+		AC3A6C3028902D120046DE69 /* CreateEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6C2F28902D120046DE69 /* CreateEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		AC3A6C0E288CA8E00046DE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3A6C11288CA8E00046DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3A6C13288CA8E00046DE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateEditViewController.swift; path = ../CreateEditViewController.swift; sourceTree = "<group>"; };
 		AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
 		AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroublesTableViewController.swift; sourceTree = "<group>"; };
 		AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleTableViewCell.swift; sourceTree = "<group>"; };
 		AC3A6C2B288F83F90046DE69 /* TroublesLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroublesLib.xcdatamodel; sourceTree = "<group>"; };
 		AC3A6C2D288F92C70046DE69 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
+		AC3A6C2F28902D120046DE69 /* CreateEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				AC3A6C07288CA8DB0046DE69 /* SceneDelegate.swift */,
 				AC3A6C21288E0ED70046DE69 /* TroublesTableViewController.swift */,
 				AC3A6C28288F04C10046DE69 /* TroubleTableViewCell.swift */,
-				AC3A6C1D288E0CE90046DE69 /* CreateEditViewController.swift */,
 				AC3A6C1F288E0D910046DE69 /* TroubleViewController.swift */,
+				AC3A6C2F28902D120046DE69 /* CreateEditViewController.swift */,
 				AC3A6C2A288F83F90046DE69 /* TroublesLib.xcdatamodeld */,
 				AC3A6C0B288CA8DB0046DE69 /* Main.storyboard */,
 				AC3A6C10288CA8E00046DE69 /* LaunchScreen.storyboard */,
@@ -155,8 +155,8 @@
 			files = (
 				AC3A6C29288F04C10046DE69 /* TroubleTableViewCell.swift in Sources */,
 				AC3A6C06288CA8DB0046DE69 /* AppDelegate.swift in Sources */,
+				AC3A6C3028902D120046DE69 /* CreateEditViewController.swift in Sources */,
 				AC3A6C08288CA8DB0046DE69 /* SceneDelegate.swift in Sources */,
-				AC3A6C1E288E0CE90046DE69 /* CreateEditViewController.swift in Sources */,
 				AC3A6C20288E0D910046DE69 /* TroubleViewController.swift in Sources */,
 				AC3A6C22288E0ED70046DE69 /* TroublesTableViewController.swift in Sources */,
 				AC3A6C2E288F92C70046DE69 /* UIViewController+Context.swift in Sources */,
